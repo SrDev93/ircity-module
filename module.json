@@ -1,0 +1,13 @@
+{
+    "name": "IrCity",
+    "alias": "ircity",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\IrCity\\Providers\\IrCityServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
