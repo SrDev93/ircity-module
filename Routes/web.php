@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('')->middleware('auth')->group(function() {
+Route::prefix('panel')->group(function() {
     Route::resource('cities', 'IrCityController');
 });
