@@ -9,7 +9,8 @@ class ProvinceCity extends Model
 {
     use HasFactory;
 
-    protected $guarded = ['id', 'created_at', 'updated_at'];
+    protected $guarded = ['id'];
+    public $timestamps = false;
 
     protected static function newFactory()
     {
